@@ -83,6 +83,7 @@ a {
 
 .nav-links {
   list-style: none;
+  color: #6e6e30;
   display: flex;
   gap: 36px;
 }
