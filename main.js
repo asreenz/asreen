@@ -1,8 +1,8 @@
 // Nav scroll effect
-const nav = document.getElementById('nav');
-window.addEventListener('scroll', () => {
-  nav.classList.toggle('scrolled', window.scrollY > 40);
-});
+// const nav = document.getElementById('nav');
+// window.addEventListener('scroll', () => {
+//   nav.classList.toggle('scrolled', window.scrollY > 40);
+// });
 
 // Mobile nav toggle
 const toggle = document.querySelector('.nav-toggle');
