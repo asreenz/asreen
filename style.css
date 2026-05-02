@@ -51,6 +51,7 @@ a {
   top: 0;
   left: 0;
   right: 0;
+  list-style-type: none; /* Removes the dots */
   height: var(--nav-height);
   display: flex;
   text-align: center;
