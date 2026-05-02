@@ -126,11 +126,9 @@
 .album-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(10, 10, 10, 0.92);
   z-index: 1000;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
   overflow-y: auto;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -143,7 +141,6 @@
 
 .album-overlay-inner {
   width: 100%;
-  max-width: 1000px;
   padding-top: 40px;
 }
 
