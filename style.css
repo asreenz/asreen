@@ -32,7 +32,6 @@ body {
   background: var(--white);
   color: var(--black);
   font-family: Helvetica, Arial, sans-serif;
-  text-align: center;
   font-weight: 300;
   line-height: 1.7;
   overflow-x: hidden;
@@ -55,7 +54,7 @@ a {
   right: 0;
   height: var(--nav-height);
   display: flex;
-  align-items: center;        /* vertical centering */
+  align-items: center;
   justify-content: space-between;
   padding: 0 40px;
   background: rgba(248, 246, 242, 0.92);
@@ -84,7 +83,7 @@ a {
   list-style: none;
   color: #6e6e30;
   display: flex;
-  align-items: center;  
+  align-items: center;
   gap: 36px;
 }
 
