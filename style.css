@@ -32,6 +32,7 @@ body {
   background: var(--white);
   color: var(--black);
   font-family: courier, 'Courier New', monospace, 'Courier';
+  text-align: center;
   font-weight: 300;
   line-height: 1.7;
   overflow-x: hidden;
