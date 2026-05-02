@@ -58,9 +58,9 @@
 .album-label {
   margin-top: 14px;
   font-family: Helvetica, Arial, sans-serif;
+  color: #FFDB58;
   font-size: 1rem;
   font-weight: 400;
-  color: var(--black, #0a0a0a);
   text-align: center;
   letter-spacing: 0.04em;
 }
