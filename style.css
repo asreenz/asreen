@@ -49,6 +49,7 @@ a {
 
 #nav {
   position: fixed;
+   color: #6e6e30;
   top: 0;
   left: 0;
   right: 0;
@@ -73,6 +74,7 @@ a {
 
 .nav-logo {
   font-family: Helvetica, Arial, sans-serif;
+   color: #6e6e30;
   font-size: 1.1rem;
   font-weight: 400;
   letter-spacing: 0.03em;
