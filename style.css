@@ -53,6 +53,7 @@ a {
   right: 0;
   height: var(--nav-height);
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: space-between;
   padding: 0 40px;
