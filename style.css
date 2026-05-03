@@ -357,6 +357,10 @@ a {
 #film_title {
    font-size: 2rem;
 }
+#film_title small {
+   font-size: 0.5rem;
+}
+
 .film_description p {
    font-size: 0.88rem;
 }
