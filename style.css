@@ -87,7 +87,7 @@ a {
 .homepage_layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 0 10%;
+  padding: 5% 10% 0 10% ;
   gap: 40px;
   align-items: start;
 }
