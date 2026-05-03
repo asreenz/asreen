@@ -79,8 +79,6 @@ a {
 .nav-links a {
   font-size: 0.78rem;
   letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--gray-dark);
   transition: color 0.2s;
 }
 
