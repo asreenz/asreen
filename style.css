@@ -287,8 +287,8 @@ a {
    font-size: 0.5rem;
 }
 
-.film_description {
-   font-size: 0.88rem;
+.film_description p {
+   font-size: 0.88rem !important;
 }
 
 /* ============================================================
