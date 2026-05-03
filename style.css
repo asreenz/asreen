@@ -59,7 +59,7 @@ a {
 }
 .nav-logo {
   font-family: Helvetica, Arial, sans-serif;
-  color: #6e6e30;
+  color: #cc3300;
   font-size: 4.1rem;
   letter-spacing: 0.03em;
   margin-bottom: 24px;
@@ -71,6 +71,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+   color: #cc3300;
 }
 
 
