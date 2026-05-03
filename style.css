@@ -273,22 +273,35 @@ a {
 .films { background: var(--black); color: var(--white); }
 
 #film_section {
-  display: grid;
-  text-align: center;
-  grid-template-columns: 1fr 1fr;
-  padding: 7% 10% 40px 30%;
-  font-family: Helvetica, Arial, sans-serif;
-   
-}
-#film_title {
-   font-size: 2rem;
-}
-#film_title small {
-   font-size: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7% 10%;
+  gap: 60px;
+  font-family: Courier, 'Courier New', monospace;
 }
 
-.film_description p {
-   font-size: 0.88rem !important;
+#film_section .film-entry {
+  text-align: center;
+}
+
+#film_section .film-entry header {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+#film_section .film-entry .film_description {
+  font-size: 0.9rem;
+  color: var(--gray-dark);
+  margin-bottom: 6px;
+}
+
+#film_section .film-entry small {
+  font-size: 0.75rem;
+  color: var(--gray-mid);
+  letter-spacing: 0.05em;
 }
 
 /* ============================================================
