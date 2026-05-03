@@ -277,7 +277,7 @@ a {
   align-items: flex-start;
   text-align: left;
   width: 100%;
-  padding: 7% 10% 7% 30%;
+  padding: 0 10% 7% 30%;
   gap: 60px;
   font-family: Helvetica, Arial, sans-serif;
 }
