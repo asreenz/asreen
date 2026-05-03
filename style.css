@@ -289,21 +289,25 @@ a {
 
 #film_section .film-entry header {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: 300;
   margin-bottom: 8px;
+   letter-spacing: 0.2px;
 }
 
 #film_section .film-entry .film_description {
-  font-size: 0.9rem;
+  font-size: 13px;
+   font-weight: 300;
   color: #262626;
   margin-bottom: 6px;
+   letter-spacing: 0.2px;
 }
 
 #film_section .film-entry small {
-  font-size: 0.75rem;
+  font-size: 10px;
+   font-weight: 300;
   color: #4d4d4d;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.8px;
 }
 
 /* ============================================================
