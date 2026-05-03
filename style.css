@@ -296,13 +296,13 @@ a {
 
 #film_section .film-entry .film_description {
   font-size: 0.9rem;
-  color: #cc3300;
+  color: #262626;
   margin-bottom: 6px;
 }
 
 #film_section .film-entry small {
   font-size: 0.75rem;
-  color: var(--gray-mid);
+  color: #4d4d4d;
   letter-spacing: 0.05em;
 }
 
