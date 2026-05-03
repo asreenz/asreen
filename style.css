@@ -48,7 +48,7 @@ a {
 #nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 7% 10% 40px 10%;
+  padding: 7% 10% 40px 30%;
   font-family: Courier, 'Courier New', monospace;
   font-size: 14px;
 }
