@@ -55,14 +55,12 @@ a {
   border-bottom: none;
   z-index: 100;
   font-family: Courier, 'Courier New', monospace, 'Courier';
-   color: ##b9b6b5;
    font-size: 1.1rem;
 }
 .nav-logo {
   font-family: Helvetica, Arial, sans-serif;
   color: ##b9b6b5;
   font-size: 1.1rem;
-  letter-spacing: 0.03em;
   margin-bottom: 24px;
   transition: opacity 0.2s;
 }
@@ -71,13 +69,12 @@ a {
   list-style: none;
   display: flex;
   flex-direction: column;
-   color: #cc3300;
+   color: ##b9b6b5;
    
 }
 
 
 .nav-links a {
-  letter-spacing: 0.12em;
   transition: color 0.2s;
    text-decoration: underline;
 }
