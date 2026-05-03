@@ -349,6 +349,7 @@ a {
 }
 #film_section {
    display: grid;
+   align-items: center;
    font-family: Helvetica, Arial, sans-serif;
    
 }
