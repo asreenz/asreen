@@ -296,7 +296,7 @@ a {
 
 #film_section .film-entry .film_description {
   font-size: 0.9rem;
-  color: var(--gray-dark);
+  color: #cc3300;
   margin-bottom: 6px;
 }
 
