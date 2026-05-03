@@ -351,11 +351,14 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 7% 10% 40px 30%;
-   font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
    
 }
 #film_title {
-   font-size: 2em;
+   font-size: 2rem;
+}
+.film_description p {
+   font-size: 0.88rem;
 }
 
 /* ============================================================
