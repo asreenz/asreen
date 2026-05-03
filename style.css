@@ -30,7 +30,7 @@ html {
 
 body {
   background: var(--white);
-   background-color: #d9d9d9;
+   background-color: #cc3300;
   color: var(--black);
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -54,11 +54,12 @@ a {
    padding-left:33.33%;
   border-bottom: none;
   z-index: 100;
-  font-family: Courier, 'Courier New', monospace, 'Courier'
+  font-family: Courier, 'Courier New', monospace, 'Courier';
+   color: ##b9b6b5;
 }
 .nav-logo {
   font-family: Helvetica, Arial, sans-serif;
-  color: #cc3300;
+  color: ##b9b6b5;
   font-size: 3.1rem;
   letter-spacing: 0.03em;
   margin-bottom: 24px;
