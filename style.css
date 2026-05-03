@@ -67,12 +67,13 @@ a {
   display: flex;
   flex-direction: column;
   gap: 4px;
+   color: var(--black);
+  transition: opacity 0.2s;
 }
 
-.nav-links a, .nav-links li {
+.nav-links a {
   text-decoration: underline;
-  color: var(--black);
-  transition: opacity 0.2s;
+  
 }
 
 .nav-links a:hover { opacity: 0.5; }
