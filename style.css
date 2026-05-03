@@ -51,6 +51,7 @@ a {
   flex-direction: column;
    list-style-type: none;
   padding: 40px 0 20px;
+   padding-left:33.33%;
   border-bottom: none;
   z-index: 100;
 }
