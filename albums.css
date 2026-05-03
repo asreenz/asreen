@@ -75,6 +75,12 @@
   margin-top: 3px;
   text-align: center;
 }
+.album-overlay-title {
+  display: none;
+}
+.album-overlay {
+  background: rgba(10, 10, 10, 0.92);
+}
 
 /* ---- Jiggle on hover ---- */
 @keyframes jiggle {
