@@ -280,6 +280,8 @@ a {
   padding: 0 10% 5% 30%;
   gap: 40px;
   font-family: Courier, 'Courier New', monospace;
+   text-decoration: underline;
+  text-underline-offset: 2px; /* Adjust distance as needed */
 }
 
 #film_section .film-entry {
