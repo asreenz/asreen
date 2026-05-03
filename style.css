@@ -54,6 +54,7 @@ a {
    padding-left:33.33%;
   border-bottom: none;
   z-index: 100;
+  font-family: Courier, 'Courier New', monospace, 'Courier'
 }
 .nav-logo {
   font-family: Helvetica, Arial, sans-serif;
