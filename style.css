@@ -49,8 +49,6 @@ a {
   position: relative; /* no longer fixed */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
    list-style-type: none;
   padding: 40px 0 20px;
   border-bottom: none;
@@ -69,7 +67,6 @@ a {
   list-style: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
    color: #cc3300;
    text-decoration: underline;
 }
