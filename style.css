@@ -66,16 +66,7 @@ a {
   transition: opacity 0.2s;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-}
-#nav.scrolled {
-  border-bottom-color: var(--gray-light);
-}
+.nav-links { display: flex; }
 
 
 .nav-links a {
