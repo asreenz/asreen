@@ -94,6 +94,7 @@ a {
 }
 /* ============= HOME PAGE VIDEO ==================*/
 .homepage_video {
+   display: flex;
    justify-content: center;
    align: center;
 }
