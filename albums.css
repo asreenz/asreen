@@ -345,6 +345,9 @@
   text-transform: uppercase;
   color: rgba(248,246,242,0.45);
 }
+.photography {
+   padding-top: 10px;
+}
 
 /* ============================================================
    RESPONSIVE
