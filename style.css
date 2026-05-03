@@ -275,16 +275,19 @@ a {
 #film_section {
   display: flex;
   flex-direction: column;
-  /* align-items: center;
-  text-align: center; */
+  align-items: flex-start;
+  text-align: left;
   width: 100%;
-  padding: 7% 0;
+  padding: 7% 10% 7% 30%;
   gap: 60px;
   font-family: Courier, 'Courier New', monospace;
 }
 
 #film_section .film-entry {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
 }
 
 #film_section .film-entry header {
