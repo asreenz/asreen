@@ -61,7 +61,8 @@ a {
   font-family: Helvetica, Arial, sans-serif;
   color: ##b9b6b5;
   font-size: 18px;
-   font-weight: bolder;
+   font-weight: bold;
+   letter-spacing: 1px;
   margin-bottom: 24px;
   transition: opacity 0.2s;
 }
