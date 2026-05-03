@@ -276,7 +276,9 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 7% 10%;
+  text-align: center;
+  width: 100%;
+  padding: 7% 0;
   gap: 60px;
   font-family: Courier, 'Courier New', monospace;
 }
