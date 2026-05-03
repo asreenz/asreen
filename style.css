@@ -347,6 +347,9 @@ a {
   color: var(--gray-mid);
   line-height: 1.7;
 }
+#film_section {
+   display: grid;
+}
 
 /* ============================================================
    PHOTOGRAPHY
