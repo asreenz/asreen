@@ -7,6 +7,51 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Jost:wght@300;400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css"/>
+  <style>
+  .viewer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: calc(100vh - 220px);
+      padding: 0 20px 40px;
+      cursor: pointer;
+      user-select: none;
+    }
+ 
+    .photo-card {
+      display: none;
+      width: min(460px, 80vw);
+    }
+ 
+    .photo-card.active {
+      display: block;
+    }
+ 
+    .photo-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+ 
+    .photo-card .placeholder {
+      width: 100%;
+      aspect-ratio: 3/4;
+      background: #c8c5be;
+    }
+ 
+    .viewer-counter {
+      margin-top: 18px;
+      font-family: Courier, 'Courier New', monospace;
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      color: #6e6c68;
+    }
+ 
+    @media (max-width: 600px) {
+      .photo-card { width: 88vw; }
+    }
+</style>
 </head>
 <body>
  
