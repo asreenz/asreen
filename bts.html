@@ -6,58 +6,8 @@
   <title>bts — Asreen Zangana</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Jost:wght@300;400&display=swap" rel="stylesheet" />
-  <style>
-    *, *::before, *::after {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    :root {
-      --black: #0a0a0a;
-      --white: #f8f6f2;
-      --gray-dark: #6e6c68;
-    }
-
-    body {
-      background-color: #d9d9d9;
-      color: var(--black);
-      font-family: Courier, 'Courier New', monospace;
-      font-weight: 300;
-      min-height: 100vh;
-    }
-
-    a { color: inherit; }
-
-    #nav {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      padding: 7% 10% 40px 30%;
-      font-family: Courier, 'Courier New', monospace;
-      font-size: 14px;
-    }
-
-    .nav-logo {
-      font-size: 18px;
-      font-weight: bold;
-      letter-spacing: 1px;
-      text-decoration: none;
-    }
-
-    .nav-links {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
-
-    .nav-links a {
-      text-decoration: underline;
-      transition: opacity 0.2s;
-    }
-
-    .nav-links a:hover { opacity: 0.5; }
-
+  <link rel="stylesheet" href="style.css"/>
+    <style>
     .viewer {
       display: flex;
       flex-direction: column;
@@ -68,62 +18,63 @@
       cursor: pointer;
       user-select: none;
     }
-
+ 
     .photo-card {
       display: none;
       width: min(460px, 80vw);
     }
-
+ 
     .photo-card.active {
       display: block;
     }
-
+ 
     .photo-card img {
       width: 100%;
       height: auto;
       display: block;
     }
-
+ 
     .photo-card .placeholder {
       width: 100%;
       aspect-ratio: 3/4;
       background: #c8c5be;
     }
-
+ 
     .viewer-counter {
       margin-top: 18px;
+      font-family: Courier, 'Courier New', monospace;
       font-size: 11px;
       letter-spacing: 1.5px;
-      color: var(--gray-dark);
+      color: #6e6c68;
     }
-
+ 
     @media (max-width: 600px) {
-      #nav {
-        padding: 10% 5% 30px 5%;
-        grid-template-columns: 1fr;
-        gap: 20px;
-      }
       .photo-card { width: 88vw; }
     }
   </style>
 </head>
 <body>
-
+ 
   <nav id="nav">
-    <a class="nav-logo" href="index.html">asreen zangana</a>
+    <a class="nav-logo">asreen zangana</a><br><br><br>
     <ul class="nav-links">
+      <li><a href="directing.html">directing</a></li>
+      <li><a href="writing.html">writings</a></li>
+      <li>scripts</li>
+      <li><a href="photographs.html">photographs</a></li>
+      <li>bts</li>
       <li>contact <mark>asreenzangana@gmail.com</mark></li>
     </ul>
   </nav>
-
+ 
   <div class="viewer" id="viewer">
-
+ 
     <!--
       TO ADD YOUR PHOTOS:
       Replace <div class="placeholder"></div> with <img src="filename.jpg" alt="bts" />
-      Add or remove .photo-card divs freely — the JS adapts automatically.
+      Add or remove .photo-card divs freely.
     -->
-
+ 
     <div class="photo-card active"><div class="placeholder"></div></div>
     <div class="photo-card"><div class="placeholder"></div></div>
     <div class="photo-card"><div class="placeholder"></div></div>
@@ -132,31 +83,32 @@
     <div class="photo-card"><div class="placeholder"></div></div>
     <div class="photo-card"><div class="placeholder"></div></div>
     <div class="photo-card"><div class="placeholder"></div></div>
-
+ 
     <div class="viewer-counter" id="counter">1 / 8</div>
   </div>
-
+ 
   <script>
     const viewer = document.getElementById('viewer');
     const counterEl = document.getElementById('counter');
     const cards = Array.from(document.querySelectorAll('.photo-card'));
     const total = cards.length;
     let current = 0;
-
+ 
     function show(index) {
       cards[current].classList.remove('active');
       current = (index + total) % total;
       cards[current].classList.add('active');
       counterEl.textContent = (current + 1) + ' / ' + total;
     }
-
+ 
     viewer.addEventListener('click', () => show(current + 1));
-
+ 
     document.addEventListener('keydown', (e) => {
       if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); show(current + 1); }
       if (e.key === 'ArrowLeft') { e.preventDefault(); show(current - 1); }
     });
   </script>
-
+ 
 </body>
+</html>
 </html>
