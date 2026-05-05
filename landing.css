@@ -84,9 +84,9 @@ body{
       position: fixed;
       bottom: 14px;
       right: 32px;
-      font-size: 10px;
+      font-size: 20px;
       letter-spacing: 0.2em;
-      color: #bbb;
+      color: black;
       z-index: 101;
       font-family: 'test_epicene_displaymedium';
     }
@@ -100,7 +100,7 @@ body{
       letter-spacing: 0.2em;
       color: black;
       z-index: 101;
-      font-family: 'test_epicene_displaymedium', Georgia, serif;
+      font-family: 'test_epicene_displaymedium';
     }
 .toc-pin {
   position: fixed;
