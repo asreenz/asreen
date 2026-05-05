@@ -80,10 +80,26 @@ body{
   transform: rotate(-90deg);
 }
 
-.pinned-bottom {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 50%;
-  text-align: center;
-}
+/* ── Book-style page number ── */
+    .page-number {
+      position: fixed;
+      bottom: 14px;
+      right: 32px;
+      font-size: 10px;
+      letter-spacing: 0.2em;
+      color: #bbb;
+      z-index: 101;
+      font-family: 'test_epicene_displaymedium';
+    }
+ 
+    /* Left side page number */
+    .page-number-left {
+      position: fixed;
+      bottom: 14px;
+      left: 32px;
+      font-size: 10px;
+      letter-spacing: 0.2em;
+      color: rgba(255,255,255,0.25);
+      z-index: 101;
+      font-family: 'test_epicene_displaymedium', Georgia, serif;
+    }
