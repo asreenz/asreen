@@ -1,15 +1,15 @@
   @font-face {
     font-family: 'test_epicene_displayMdIt';
-    src: url('css/testepicenedisplay-mediumitalic-bf661753410cdd8-webfont.woff2') format('woff2'),
-         url('css/testepicenedisplay-mediumitalic-bf661753410cdd8-webfont.woff') format('woff');
+    src: url('css/mycinema/testepicenedisplay-mediumitalic-bf661753410cdd8-webfont.woff2') format('woff2'),
+         url('css/mycinema/testepicenedisplay-mediumitalic-bf661753410cdd8-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 body{
   font-family: 'test_epicene_displaymedium';
-    src: url('css/testepicenedisplay-medium-bf66175341117d8-webfont.woff2') format('woff2'),
-         url('css/testepicenedisplay-medium-bf66175341117d8-webfont.woff') format('woff');
+    src: url('css/mycinema/testepicenedisplay-medium-bf66175341117d8-webfont.woff2') format('woff2'),
+         url('css/mycinema/testepicenedisplay-medium-bf66175341117d8-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   background-color: black;
