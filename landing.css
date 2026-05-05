@@ -61,3 +61,7 @@ body{
   color: black;
   padding: 5% 10% 5% 10%;
 }
+
+.word_break {
+  word-spacing: 10px; /* Increases space by 10 pixels */
+}
