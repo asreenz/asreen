@@ -68,11 +68,11 @@ body{
 }
 
 .fullscreen-img {
-  width: 100%;
-    height: 100%;
-    /* Rotate 90 degrees. Use -90deg if it's sideways the other way */
-    transform: rotate(90deg);
-    /* Scale up to fill gaps created by rotation */
-    transform-scale: 1.5; 
-    object-fit: cover;
+  width: 50vw;
+  height: 100vh;
+  background-image: url("260429000035750005.jpg");
+  background-size: cover;
+  background-position: center;
+  /* Rotate the background specifically */
+  transform: rotate(-90deg);
 }
