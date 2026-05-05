@@ -79,3 +79,12 @@ body{
   /* Rotate the background specifically */
   transform: rotate(-90deg);
 }
+
+.pinned-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white; /* Good to add a background so it's readable */
+  text-align: center;
+}
