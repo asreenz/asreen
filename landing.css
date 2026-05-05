@@ -49,8 +49,24 @@ body{
   font-size: 15px;
 }
 
-.left_split{
-  
+.left_split {
+  position: relative;
+  overflow: hidden;
+  background: black;
+  height: 100vh;
+}
+
+.fullscreen-img {
+  position: absolute;
+  /* make it large enough that when rotated it fills all edges */
+  width: 100vh;
+  height: 100vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  background-image: url("260429000035740023.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .right_split {
@@ -69,15 +85,6 @@ body{
   word-spacing: 30px;
 }
 
-.fullscreen-img {
-  width: 50vw;
-  height: 100vh;
-  background-image: url("260429000035740023.jpg");
-  background-size: cover;
-  background-position: center;
-  /* Rotate the background specifically */
-  transform: rotate(-90deg);
-}
 
 /* ── Book-style page number ── */
     .page-number {
