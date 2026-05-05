@@ -66,6 +66,9 @@ body{
 .word_break {
   word-spacing: 10px; /* Increases space by 10 pixels */
 }
+.footer_break {
+  word-spacing: 30px;
+}
 
 .fullscreen-img {
   width: 50vw;
