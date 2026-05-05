@@ -38,3 +38,10 @@ body{
   color: white;
   letter-spacing: 2px;
 }
+
+/*========= work screen ========*/
+.work_screen {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  height: 100vh;
+}
