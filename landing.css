@@ -102,3 +102,15 @@ body{
       z-index: 101;
       font-family: 'test_epicene_displaymedium', Georgia, serif;
     }
+.toc-pin {
+  position: fixed;
+  bottom: 40px;
+  right: 0;
+  width: 50%;
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #999;
+  z-index: 100;
+}
