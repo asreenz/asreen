@@ -29,3 +29,7 @@ body{
   color: white;
   font-family: 'test_epicene_displayMdIt';
 } 
+
+h1{
+  font-family: 'test_epicene_displaymedium';
+}
