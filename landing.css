@@ -59,4 +59,5 @@ body{
   grid-template-columns: repeat(2, 1fr); /* Splits the item into 2 equal columns */
   gap: 10px; /* Optional spacing between the new halves */
   color: black;
+  padding: 10% 10% 10% 10%;
 }
