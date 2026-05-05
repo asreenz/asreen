@@ -68,18 +68,11 @@ body{
 }
 
 .fullscreen-img {
-    /* Rotate the image 90 degrees */
-    transform: rotate(90deg);
-    
-    /* Ensure it covers the area */
-    transform-origin: center;
-    object-fit: cover;
-    
-    /* Force size to viewport */
-    width: 100vw;
-    height: 100vh;
-  margin: 0;
-    padding: 0;
+  width: 100%;
     height: 100%;
-    overflow: hidden; /* Prevents scrollbars */
+    /* Rotate 90 degrees. Use -90deg if it's sideways the other way */
+    transform: rotate(90deg);
+    /* Scale up to fill gaps created by rotation */
+    transform-scale: 1.5; 
+    object-fit: cover;
 }
