@@ -7,13 +7,12 @@
 
 }
 body{
-  background-color: black;
   font-family: 'test_epicene_displaymedium';
     src: url('css/testepicenedisplay-medium-bf66175341117d8-webfont.woff2') format('woff2'),
          url('css/testepicenedisplay-medium-bf66175341117d8-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-  font-size: 40px;
+  
 } 
 .cinema_landing{
   display: flex;
@@ -28,10 +27,12 @@ body{
 .cinema_landing_header {
   color: white;
   font-family: 'test_epicene_displayMdIt';
+  font-size: 80px;
   letter-spacing: 2px;
 } 
 
 h1{
   font-family: 'test_epicene_displaymedium';
+  font-size: 40px;
   color: white;
 }
