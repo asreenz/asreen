@@ -13,23 +13,22 @@
     <style>
     body { background-color: #F5F5F5; }
   </style>
-       <div class="work_screen">
-      <div class="left_split">
-        <div class="secondcow-img"></div>
-       
-       <div class="right_split">
-        <div class="left_right">
-          <span class="word_break">1 </span>Landing page<br>
-          <span class="word_break">2026 </span>somemore stufffff
-        </div>
-        <div class="right_right">
-          <span class="word_break">2026 </span>second cow<br>
-          <span class="word_break">2026 </span>werner herzog residency, azores portugal<br>
-          <span class="word_break">2026 </span>somemore stufffff
-        </div>
-      
-      </div>
-      </div>
+      <div class="work_screen">
+  <div class="left_split">
+    <div class="secondcow-img"></div>
+  </div>                        ← close left_split here
+  <div class="right_split">    ← right_split is a sibling, not a child
+    <div class="left_right">
+      <span class="word_break">1 </span>Landing page<br>
+      <span class="word_break">2026 </span>somemore stufffff
+    </div>
+    <div class="right_right">
+      <span class="word_break">2026 </span>second cow<br>
+      <span class="word_break">2026 </span>werner herzog residency, azores portugal<br>
+      <span class="word_break">2026 </span>somemore stufffff
+    </div>
+  </div>
+</div>
 <!-- Book-style page numbers -->
 <div class="page-number-left">4</div>
 <div class="page-number">5</div>
