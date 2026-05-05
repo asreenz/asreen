@@ -50,8 +50,14 @@ body{
 
 .left_split{
   background-color: black;
+  
 }
 
 .right_split {
   background-color: #F5F5F5;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  height: 100vh;
+  color: black;
+  font-size: 12px;
 }
