@@ -45,3 +45,11 @@ body{
   grid-template-columns: 1fr 1fr; /* Two equal columns */
   height: 100vh;
 }
+
+.left_split{
+  background-color: black;
+}
+
+.right_split {
+  background-color: white;
+}
