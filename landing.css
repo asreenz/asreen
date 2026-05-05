@@ -49,6 +49,10 @@ body{
   font-size: 15px;
 }
 
+.work_screen .secondcow {
+  color: white;
+}
+
 .left_split {
   position: relative;
   overflow: hidden;
