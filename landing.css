@@ -28,6 +28,7 @@ body{
 .cinema_landing_header {
   color: white;
   font-family: 'test_epicene_displayMdIt';
+  letter-spacing: 2px;
 } 
 
 h1{
