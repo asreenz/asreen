@@ -34,6 +34,7 @@ body{
 
 .cinema_landing h1{
   font-family: 'test_epicene_displaymedium';
-  font-size: 15px;
+  font-size: 18px;
   color: white;
+  letter-spacing: 2px;
 }
