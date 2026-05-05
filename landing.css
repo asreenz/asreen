@@ -5,6 +5,7 @@ body{
          url('testepicenedisplay-medium-bf66175341117d8-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+  font-size: 40px;
 } 
 .cinema_landing{
   display: flex;
