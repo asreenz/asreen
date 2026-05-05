@@ -68,6 +68,18 @@ body{
   background-size: cover;
   background-position: center;
 }
+.secondcow-img {
+  position: absolute;
+  /* make it large enough that when rotated it fills all edges */
+  width: 100vh;
+  height: 100vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  background-image: url("260203000091170030.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
 .right_split {
   background-color: #F5F5F5;
