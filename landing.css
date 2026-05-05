@@ -45,6 +45,7 @@ body{
   grid-template-columns: 1fr 1fr; /* Two equal columns */
   height: 100vh;
   color: red;
+  font-family: 'test_epicene_displaymedium';
   font-size: 15px;
 }
 
