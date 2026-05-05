@@ -1,5 +1,10 @@
 body{
   background-color: black;
+  font-family: 'test_epicene_displaymedium';
+    src: url('testepicenedisplay-medium-bf66175341117d8-webfont.woff2') format('woff2'),
+         url('testepicenedisplay-medium-bf66175341117d8-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 } 
 .cinema_landing{
   display: flex;
