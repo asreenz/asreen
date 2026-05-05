@@ -66,3 +66,20 @@ body{
 .word_break {
   word-spacing: 10px; /* Increases space by 10 pixels */
 }
+
+.fullscreen-img {
+    /* Rotate the image 90 degrees */
+    transform: rotate(90deg);
+    
+    /* Ensure it covers the area */
+    transform-origin: center;
+    object-fit: cover;
+    
+    /* Force size to viewport */
+    width: 100vw;
+    height: 100vh;
+  margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Prevents scrollbars */
+}
