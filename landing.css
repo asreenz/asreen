@@ -44,6 +44,8 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal columns */
   height: 100vh;
+  color: red;
+  font-size: 12px;
 }
 
 .left_split{
